@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Countdown + Fake Captcha + Progress Bar</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<h1>Countdown Website</h1>
+
+<div id="countdown">60</div>
+
+<div id="captchaSection">
+    <h2>Complete the CAPTCHA</h2>
+    <p>Enter anything:</p>
+    <input id="captchaInput" placeholder="Type something..." />
+    <button onclick="submitCaptcha()">Submit</button>
+</div>
+
+<div id="loadingSection">
+    <h2>Loading...</h2>
+    <div id="loadingCountdown">60</div>
+
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+</div>
+
+<div id="finalMessage">
+    <h1>6HT4G</h1>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
